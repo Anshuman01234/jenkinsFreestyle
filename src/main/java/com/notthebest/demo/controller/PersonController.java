@@ -49,6 +49,6 @@ public class PersonController {
 	public String generateMatches(Model model) {
 		Map<String, String> matches = service.generateMatches();
 		model.addAttribute("matches", matches);
-		return "generate";
+		return "generate"; 
 	}
 }
